@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="forms.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div>
+      <header>
+        <a href="../home/index.html">
+          <button class="boton__back">BACK</button>
+        </a>
+      </header>
+      <form action="">
+        <ul>
+          <div class="form__CreateRecipe">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="user_name" />
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" id="mail" name="user_mail" />
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="user_message"></textarea>
+            <button type="submit" id="btn">Envíe su mensaje</button>
+          </div>
+        </ul>
+      </form>
+    </div>
+    <div class="fondo__home">
+      <img class="img__fondo" src="../images/form.png" alt="" />
+    </div>
+  </body>
+  <script src="./form.js"></script>
+</html>
